@@ -76,6 +76,10 @@ li {
     grid-template-columns: repeat(3, 1fr);
 
 }
+.grid-four--cols{
+    grid-template-columns: repeat(4,1fr);
+    
+}
 
 /** module/reusable */
 .btn {
@@ -109,6 +113,16 @@ li {
 .section-common--title {
     font-size: 2rem;
     margin: 2.4rem 0 1.21rem 0;
+}
+.fa-solid{
+    padding: 2.4rem;
+    background: var(--supporting-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: var(--hero-heading-color);
 }
 
 /*? ----------------------------------------------- ?*/
@@ -270,3 +284,14 @@ main {
 }
 
 /*****end About section**********/
+
+
+/******start course section********/
+.section-course .grid{
+    gap: 3.2rem;
+}
+.section-course .course-div{
+    padding: 3.2rem;
+}
+
+/******end course section********/
