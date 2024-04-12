@@ -11,6 +11,8 @@
 html {
     font-size: 62.5%;
     /* * 1rem =10px */
+    scroll-behavior: smooth;
+    scroll-snap-type: Y proximity;
 }
 
 h1,
@@ -59,11 +61,14 @@ li {
 }
 
 /* ****end base rule***  */
+section{
+    scroll-snap-align: start;
+}
 /* layout */
 .container {
     max-width: 142rem;
     margin: 0 auto;
-    padding: 9.6rem 2.4rem;
+    padding: 7.6rem 2.4rem;
 }
 
 /* .section-about .container:first-child,
