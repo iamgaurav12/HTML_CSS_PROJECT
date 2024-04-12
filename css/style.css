@@ -423,6 +423,57 @@ figure {
 
 /*****end of why choose section *********/
 
+
+/*****blog section *********/
+.section-blog {
+    background-color: var(--bg-color);
+
+    .grid {
+        gap: 6.4rem;
+    }
+
+    .blog {
+        box-shadow: var(--btn-box-shadow);
+        transition: scale 0.3s linear;
+        -webkit-transition: scale 0.3s linear;
+        -moz-transition: scale 0.3s linear;
+        -ms-transition: scale 0.3s linear;
+        -o-transition: scale 0.3s linear;
+
+        &:hover {
+            scale: 1.1;
+        }
+
+        .blog-content {
+            padding: 1.4rem 2.4rem 2.4rem;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-date {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    .fa-solid {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .section-common--title {
+        margin-top: 0.8rem;
+    }
+}
+
+/*****end blog section *********/
+
+
 /*****start contact home section****/
 .section-contact-homepage {
     width: 60%;
@@ -492,12 +543,14 @@ footer * {
 .footer-1--div p {
     margin: 1rem 0 3.2rem 0;
 }
-footer .grid{
+
+footer .grid {
     text-align: right;
 }
 
 .footer-1--div {
     text-align: left;
+
     & .social-footer--icons {
         display: flex;
         gap: 2.4rem;
